@@ -33,7 +33,7 @@
 
 <div class="container">
 
-    <form class="form-signin" role="form">
+    <form class="form-signin" role="form" method="post" action="${pageContext.request.contextPath}/admin/login.html">
         <h2 class="form-signin-heading"><i class="glyphicon glyphicon-log-in"></i> 管理员登录</h2>
 
         <%--用于显示登录失败的信息--%>
@@ -54,7 +54,8 @@
             <br>
 
         </div>
-        <a class="btn btn-lg btn-success btn-block" onclick="dologin()" > 登录</a>
+        <input type="submit" value="登录" class="btn btn-lg btn-success btn-block">
+        <%--<a class="btn btn-lg btn-success btn-block" > 登录</a>--%>
     </form>
 </div>
 <script src="../../static/jquery/jquery-2.1.1.min.js"></script>

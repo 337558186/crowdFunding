@@ -21,4 +21,12 @@ public interface AdminService {
      * 测试更新
      */
     void updateAdmin();
+
+    /**
+     * 登录方法
+     * @param loginAcct
+     * @param userPswd
+     * @return admin
+     */
+    Admin login(String loginAcct, String userPswd);
 }

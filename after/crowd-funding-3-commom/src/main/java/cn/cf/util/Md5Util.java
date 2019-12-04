@@ -2,6 +2,8 @@ package cn.cf.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Collection;
+import java.util.Map;
 
 /**
  * @author ：ZWQ
@@ -12,11 +14,40 @@ import java.security.NoSuchAlgorithmException;
 public class Md5Util {
 
     /**
+     * 判断集合是否有效
+     * @param collection
+     * @param <E>
+     * @return true表示有效 false表示无效
+     */
+    public static <E> boolean collectiveEffective(Collection<E> collection){
+        return collection != null && collection.size() > 0;
+    }
+
+    public static <K,V> boolean mapEffective(Map<K,V> map){
+        return map != null && map.size() > 0;   //&&短路   避免空指针
+    }
+
+    /**
+     * 判断输入的明文是否有效
+     * @param source
+     * @return true表示有效 false表示无效
+     */
+    public static boolean stringEffective(String source){
+        return source != null && source.length() > 0;
+    }
+
+    /**
      * 加密方法
      * @param source 明文
      * @return 密文
      */
     public static String md5Encrypt(String source){
+
+        //判断明文是否有效
+        if(!stringEffective(source)){
+            throw new RuntimeException("MD5加密，明文无效！！！");
+        }
+
 
         //准备一个字符数组获取对应的值
         char[] characters = {'0', '1', '2', '3', '4', '5','6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
@@ -48,6 +79,7 @@ public class Md5Util {
 
 
         } catch (NoSuchAlgorithmException e) {
+            System.out.println("加密工具类异常");
             e.printStackTrace();
         }
 
