@@ -55,4 +55,14 @@ public class AdminController {
         session.setAttribute("LOGIN_ADMIN",admin);
         return "admin-main";
     }
+
+    /**
+     * 管理员退出登录
+     * @return
+     */
+    @RequestMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "index-page";
+    }
 }

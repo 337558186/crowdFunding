@@ -10,7 +10,8 @@
     <title>主页</title>
 </head>
 <body>
-
     ${sessionScope.LOGIN_ADMIN}
+    <br>
+    <a href="${pageContext.request.contextPath}/admin/logout.html">退出登录</a>
 </body>
 </html>
