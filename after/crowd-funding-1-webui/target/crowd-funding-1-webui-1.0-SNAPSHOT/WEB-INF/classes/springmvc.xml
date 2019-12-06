@@ -33,5 +33,17 @@
     <mvc:annotation-driven />
 
     <!--页面跳转-->
-    <mvc:view-controller path="/admin//to/loginPage.html" view-name="admin-login" />
+    <mvc:view-controller path="/admin/to/loginPage.html" view-name="admin-login" />
+    <mvc:view-controller path="/admin/to/main.html" view-name="admin-main" />
+
+    <!--配置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <mvc:exclude-mapping path="/admin//to/loginPage.html"/>
+            <mvc:exclude-mapping path="/admin/login.html"/>
+            <mvc:exclude-mapping path="/index.html"/>
+            <bean class="cn.cf.interceptpr.LoginInterceptor" id="loginInterceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

@@ -53,7 +53,7 @@ public class AdminController {
         }
         //保持登录状态
         session.setAttribute("LOGIN_ADMIN",admin);
-        return "admin-main";
+        return "redirect:/admin//to/main.html";
     }
 
     /**
@@ -63,6 +63,6 @@ public class AdminController {
     @RequestMapping("/logout")
     public String logout(HttpSession session){
         session.invalidate();
-        return "index-page";
+        return "redirect:/index.html";
     }
 }

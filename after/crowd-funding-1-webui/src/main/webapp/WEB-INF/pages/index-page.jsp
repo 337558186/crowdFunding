@@ -17,8 +17,8 @@
     <meta name="author" content="">
     <title>❤汇聚点滴力量，成就你我梦想❤</title>
     <%--base相当于   http://localhost:8080/--%>
-    <%--<base href="http://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/" />
-    --%>
+    <base href="http://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/" />
+
     <link rel="stylesheet" href="../../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../static/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../static/css/carousel.css">

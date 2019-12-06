@@ -15,6 +15,10 @@
     <meta name="description" content="">
     <meta name="keys" content="">
     <meta name="author" content="">
+    <title>❤汇聚点滴力量，成就你我梦想❤</title>
+    <%--base相当于   http://localhost:8080/--%>
+    <base href="http://${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.request.contextPath}/" />
+
     <link rel="stylesheet" href="../../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../static/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../static/css/login.css">
@@ -37,7 +41,7 @@
         <h2 class="form-signin-heading"><i class="glyphicon glyphicon-log-in"></i> 管理员登录</h2>
 
         <%--用于显示登录失败的信息--%>
-        <p>${requestScope.MESSAGE}</p>
+        <p style="color: red">${requestScope.MESSAGE}</p>
 
         <div class="form-group has-success has-feedback">
             <input type="text" name="loginAcct" class="form-control" id="inputSuccess4" placeholder="请输入登录账号" autofocus>
