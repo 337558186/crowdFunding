@@ -11,7 +11,7 @@
     </resultMap>
 
     <!--根据关键字查询-->
-    <select id="selectAdminByKeyword" resultMap="BaseResultMap">
+    <select id="selectAdminListByKeyword" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
         from t_admin

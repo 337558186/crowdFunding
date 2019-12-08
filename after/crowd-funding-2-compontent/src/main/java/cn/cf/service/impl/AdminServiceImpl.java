@@ -5,6 +5,8 @@ import cn.cf.entity.AdminExample;
 import cn.cf.mapper.AdminMapper;
 import cn.cf.service.AdminService;
 import cn.cf.util.Md5Util;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -71,5 +73,17 @@ public class AdminServiceImpl implements AdminService {
         }
 
         return null;
+    }
+
+    @Override
+    public PageInfo<Admin> queryForKeyword(Integer pageNum,Integer pageSize,String keyword) {
+        //调用pageHelper工具方法开启分页功能
+        PageHelper.startPage(pageNum,pageSize);
+        //执行分页查询
+        List<Admin> admins = adminMapper.selectAdminListByKeyword(keyword);
+        //将结果封装至pageInfo对象中
+
+        return new PageInfo<>(admins);
+
     }
 }

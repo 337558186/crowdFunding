@@ -71,9 +71,16 @@ public class CrowdFundingText {
     @Test
     public void testSelectAdminByKeyword(){
 
-        List<Admin> admins = adminMapper.selectAdminByKeyword("a");
+        List<Admin> admins = adminMapper.selectAdminListByKeyword("");
         for(Admin admin:admins){
             System.out.println(admin);
+        }
+    }
+
+    @Test
+    public void insertTestData(){
+        for (int i=0;i<200;i++){
+            adminMapper.insert(new Admin(null,"account"+i,"111111","测试"+i,"123"+i+"@qq.com","2019/12/08"));
         }
     }
 }

@@ -6,11 +6,65 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60ecf74a-3500-4431-803b-fbf98da2e827" name="Default Changelist" comment="" />
+    <list default="true" id="60ecf74a-3500-4431-803b-fbf98da2e827" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/webapp/WEB-INF/pages/admin-userManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/spring-persist-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/spring-persist-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/webapp/WEB-INF/pages/include-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/main/webapp/WEB-INF/pages/include-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/src/test/java/cn/cf/test/CrowdFundingText.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/src/test/java/cn/cf/test/CrowdFundingText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/spring-persist-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/spring-persist-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/spring-persist-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/spring-persist-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/lib/crowd-funding-2-compontent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/crowd-funding-1-webui-1.0-SNAPSHOT/WEB-INF/lib/crowd-funding-2-compontent-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-1-webui/target/test-classes/cn/cf/test/CrowdFundingText.class" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-1-webui/target/test-classes/cn/cf/test/CrowdFundingText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/src/main/java/cn/cf/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-funding-2-compontent/target/classes/cn/cf/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../众筹项目文档.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../众筹项目文档.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crowdfunding1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crowdfunding1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crowdfunding1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crowdfunding1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +117,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -72,21 +127,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\WEB-INF\pages" />
-      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\WEB-INF" />
-      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-2-compontent\src\main\java\cn\cf\controller" />
-      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-2-compontent\src\main\java\cn\cf\service\impl" />
-      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-2-compontent\src\main\java\cn\cf\service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\static\error" />
+      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\static" />
+      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\WEB-INF\pages" />
+      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-1-webui\src\main\webapp\WEB-INF" />
+      <recent name="F:\Exercise\Java\Crowdfunding\after\crowd-funding-2-compontent\src\main\java\cn\cf\controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.46">
+  <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -95,23 +150,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommomTest.testMd5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crowd-funding-3-commom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.cf.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.cf.test.CommomTest" />
-      <option name="METHOD_NAME" value="testMd5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,15 +325,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.CommomTest.testMd5" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CommomTest.testMd5" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -307,6 +336,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -331,7 +365,9 @@
       <workItem from="1575183155832" duration="3688000" />
       <workItem from="1575361239577" duration="9379000" />
       <workItem from="1575438709089" duration="6535000" />
-      <workItem from="1575514290468" duration="1264000" />
+      <workItem from="1575514290468" duration="6074000" />
+      <workItem from="1575613235379" duration="6092000" />
+      <workItem from="1575775136986" duration="9768000" />
     </task>
     <task id="LOCAL-00001" summary="众筹项目--后台环境（ssm+maven依赖）环境搭建">
       <created>1575186212234</created>
@@ -354,7 +390,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575450304605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="异常界面以及登录拦截器">
+      <created>1575534511561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575534511561</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jsp公共部分的抽取，以及解决表单重复提交的问题">
+      <created>1575619727934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575619727934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="admin维护功能，根据关键字查询">
+      <created>1575786785701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575786785701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,89 +434,108 @@
     <MESSAGE value="众筹项目--后台环境（ssm+maven依赖）环境搭建" />
     <MESSAGE value="主页，登录页面以及md5加密工具类的实现" />
     <MESSAGE value="md5加密完善以及后台登录功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="md5加密完善以及后台登录功能" />
+    <MESSAGE value="异常界面以及登录拦截器" />
+    <MESSAGE value="jsp公共部分的抽取，以及解决表单重复提交的问题" />
+    <MESSAGE value="admin维护功能，根据关键字查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin维护功能，根据关键字查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1575372043974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1575372043974" />
-    <state x="223" y="67" width="1089" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575446566226">
+    <state x="223" y="67" width="1089" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575793104427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1575446566226" />
+    <state x="223" y="67" width="1089" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1575793104427" />
     <state x="484" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575183985477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1575183985477" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1575447888163">
+    <state x="805" y="289" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575788074033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575447888163" />
-    <state x="234" y="8" key="CommitChangelistDialog2" timestamp="1575450292319">
+    <state x="805" y="289" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1575788074033" />
+    <state x="616" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1575788092384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="234" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575450292319" />
+    <state x="616" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575788092384" />
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575626020279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1575626020279" />
+    <state x="260" y="8" key="CommitChangelistDialog2" timestamp="1575786780264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="260" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575786780264" />
     <state x="549" y="165" key="FileChooserDialogImpl" timestamp="1575186712665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575186712665" />
-    <state width="1124" height="312" key="GridCell.Tab.0.bottom" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.0.bottom" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.0.center" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.0.center" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.0.left" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.0.left" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.0.right" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.0.right" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.1.bottom" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.1.bottom" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.1.center" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.1.center" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.1.left" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.1.left" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.1.right" timestamp="1575450426617">
+    <state width="1124" height="371" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.1.right" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575450426617" />
-    <state width="1124" height="312" key="GridCell.Tab.2.bottom" timestamp="1575450426618">
+    <state width="1124" height="371" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.2.bottom" timestamp="1575793406169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575450426618" />
-    <state width="1124" height="312" key="GridCell.Tab.2.center" timestamp="1575450426618">
+    <state width="1124" height="371" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575793406169" />
+    <state width="1124" height="371" key="GridCell.Tab.2.center" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575450426618" />
-    <state width="1124" height="312" key="GridCell.Tab.2.left" timestamp="1575450426618">
+    <state width="1124" height="371" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.2.left" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575450426618" />
-    <state width="1124" height="312" key="GridCell.Tab.2.right" timestamp="1575450426618">
+    <state width="1124" height="371" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state width="1124" height="371" key="GridCell.Tab.2.right" timestamp="1575793406168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1124" height="312" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575450426618" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1575448650246">
+    <state width="1124" height="371" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575793406168" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1575786852526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575448650246" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575450335286">
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1575786852526" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1575788066868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575450335286" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575788066868" />
+    <state x="590" y="298" width="540" height="524" key="StructurePopup" timestamp="1575532987380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="590" y="298" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1575532987380" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575619788115">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575619788115" />
     <state x="99" y="151" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1575183582194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -468,6 +544,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="224" y="110" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1575183349629" />
+    <state x="819" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1575785438311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="819" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575785438311" />
     <state x="391" y="95" key="spring file set editor" timestamp="1575184562505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

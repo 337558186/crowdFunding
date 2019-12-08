@@ -35,7 +35,7 @@ public interface AdminMapper {
      * @param keyword
      * @return
      */
-    List<Admin> selectAdminByKeyword(String keyword);
+    List<Admin> selectAdminListByKeyword(String keyword);
 
 
 }

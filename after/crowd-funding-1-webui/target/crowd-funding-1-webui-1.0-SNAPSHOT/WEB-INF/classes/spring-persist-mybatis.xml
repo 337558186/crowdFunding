@@ -29,6 +29,21 @@
         <property name="mapperLocations" value="classpath:mybatis/mapper/*.xml" />
         <!--装配数据源-->
         <property name="dataSource" ref="dataSource" />
+
+        <!--配置pageHelper插件-->
+        <property name="plugins">
+            <array>
+                <!--配置pageHelper全类名-->
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <!--<prop key="dialect">mysql</prop>
+                            <prop key="reasonable">true</prop>-->
+                        </props>
+                    </property>
+                </bean>
+            </array>
+        </property>
     </bean>
 
     <!--配置接口mapper所在的包    生产哪些代理对象-->

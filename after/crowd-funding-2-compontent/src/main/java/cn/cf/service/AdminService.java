@@ -1,6 +1,7 @@
 package cn.cf.service;
 
 import cn.cf.entity.Admin;
+import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 
@@ -29,4 +30,15 @@ public interface AdminService {
      * @return admin
      */
     Admin login(String loginAcct, String userPswd);
+
+
+    /**
+     * 根据关键字搜索
+     * @param pageNum  当前页码
+     * @param pageSize 每页数量
+     * @param keyword  查询关键字
+     * @return 返回PageInfo 分页操作
+     */
+    PageInfo<Admin> queryForKeyword(Integer pageNum,Integer pageSize,String keyword);
+
 }

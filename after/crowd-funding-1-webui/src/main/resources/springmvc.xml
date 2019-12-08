@@ -34,7 +34,7 @@
 
     <!--页面跳转-->
     <mvc:view-controller path="/admin/to/loginPage.html" view-name="admin-login" />
-    <mvc:view-controller path="/admin/to/main.html" view-name="admin-main" /> 
+    <mvc:view-controller path="/admin/to/main.html" view-name="admin-main" />
 
     <!--配置拦截器-->
     <mvc:interceptors>
