@@ -30,5 +30,12 @@ public interface AdminMapper {
 
     int updateByPrimaryKey(Admin record);
 
+    /**
+     * 根据关键字查询
+     * @param keyword
+     * @return
+     */
+    List<Admin> selectAdminByKeyword(String keyword);
+
 
 }
